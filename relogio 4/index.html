@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <audio id="backgroundMusic" autoplay loop>
+        <source src="0" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="content">
+        <h1 class="heading">
+            <span>日本をテーマにした時計</span>
+            <span class="heading_sub">Criado por lucas332</span>
+        </h1>
+    </div>
+    <div class="counter">
+        <div class="glass">
+            <div class="card"></div>
+            <span class="value" id="days">00</span>
+            <span class="caption">days</span>
+        </div>
+        <div class="glass">
+            <div class="card"></div>
+            <span class="value" id="hours">00</span>
+            <span class="caption">hours</span>
+        </div>
+        <div class="glass">
+            <div class="card"></div>
+            <span class="value" id="minutes">00</span>
+            <span class="caption">minutes</span>
+        </div>
+        <div class="glass">
+            <div class="card"></div>
+            <span class="value" id="seconds">00</span>
+            <span class="caption">seconds</span>
+        </div>
+    </div>
+    
+    <!-- Ícone de play música e informações da música -->
+    <div class="music-player">
+    
+        <div class="music-info">
+            Miki Matsubara-Stay with me 
+        </div>
+    </div>
+    
+    <script src="/js/js.js"></script>
+</body>
+</html>
